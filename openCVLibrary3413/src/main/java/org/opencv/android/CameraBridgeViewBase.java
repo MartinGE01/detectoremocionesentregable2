@@ -360,13 +360,13 @@ public abstract class CameraBridgeViewBase extends SurfaceView implements Surfac
         if (!connectCamera(getWidth(), getHeight())) {
             AlertDialog ad = new AlertDialog.Builder(getContext()).create();
             ad.setCancelable(false); // This blocks the 'BACK' button
-            ad.setMessage("Parece que su dispositivo no dio permiso al acceso de la camar, por favor de permiso");
+            ad.setMessage("Parece que su dispositivo no dio permiso al acceso de la cámara, por favor de permiso");
             ad.setButton(DialogInterface.BUTTON_NEUTRAL,  "OK", new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int which) {
                     dialog.dismiss();
                     ((Activity) getContext()).finish();
                 }
-            })
+            });
             ad.show();
 
         }
