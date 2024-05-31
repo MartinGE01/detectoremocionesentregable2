@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:text="Bienvenido al detector \nde objetos y emociones \nHaz click para continuar"
         android:textSize="20sp"
-        android:textColor="@color/white"
+        android:textColor="@color/color2"
         android:gravity="center"
         android:layout_gravity="center"
         android:textStyle="bold"
@@ -35,4 +35,27 @@
         android:layout_gravity="center"
         android:layout_marginBottom="24dp"
         android:src="@drawable/ima" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="8dp"
+        android:text="Martin"
+        android:textColor="@color/color17"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Versión 1.0"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:layout_margin="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom|end" />
 </LinearLayout>

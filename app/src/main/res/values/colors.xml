@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="color1">#FFFF0000</color> <!-- Rojo -->
+    <color name="color2">#FFFF7F00</color> <!-- Naranja -->
+    <color name="color3">#FFFFFF00</color> <!-- Amarillo -->
+    <color name="color4">#FF00FF00</color> <!-- Verde -->
+    <color name="color5">#FF00FFFF</color> <!-- Cyan -->
+    <color name="color6">#FF0000FF</color> <!-- Azul -->
+    <color name="color7">#FF7F00FF</color> <!-- Violeta -->
+    <color name="color8">#FFFF00FF</color> <!-- Magenta -->
+    <color name="color9">#FF800000</color> <!-- Marrón -->
+    <color name="color10">#FF808000</color> <!-- Oliva -->
+    <color name="color11">#FF008000</color> <!-- Verde oscuro -->
+    <color name="color12">#FF008080</color> <!-- Verde azulado -->
+    <color name="color13">#FF000080</color> <!-- Azul marino -->
+    <color name="color14">#FF800080</color> <!-- Púrpura -->
+    <color name="color15">#FF808080</color> <!-- Gris -->
+    <color name="color16">#FFC0C0C0</color> <!-- Plata -->
+    <color name="color17">#FFDC143C</color> <!-- Rojo carmesí -->
+    <color name="color18">#FFB8860B</color> <!-- Dorado -->
+    <color name="color19">#FF228B22</color> <!-- Verde bosque -->
+    <color name="color20">#FF20B2AA</color> <!-- Aguamarina -->
+    <color name="color21">#FF6495ED</color> <!-- Azul acero -->
+    <color name="color22">#FF483D8B</color> <!-- Azul pizarra oscuro -->
+    <color name="color23">#FF8B4513</color> <!-- Marrón claro -->
+    <color name="color24">#FF2E8B57</color> <!-- Verde mar -->
+    <color name="color25">#FFD2691E</color> <!-- Chocolate -->
+    <color name="color26">#FF5F9EA0</color> <!-- Azul cadete -->
+    <color name="color27">#FF7FFF00</color> <!-- Verde chartreuse -->
+    <color name="color28">#FFDAA520</color> <!-- Dorado antiguo -->
+    <color name="color29">#FFD2B48C</color> <!-- Beige -->
+    <color name="color30">#FFA0522D</color> <!-- Marrón sienna -->
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
