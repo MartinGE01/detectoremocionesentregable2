@@ -20,29 +20,12 @@
         android:layout_gravity="top"
         android:gravity="center_vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="6:18"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:layout_marginEnd="16dp"/>
+
 
         <!-- Additional Icons -->
         <!-- Replace these with actual icons as needed -->
-        <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:src="@android:drawable/ic_menu_camera"
-            android:tint="#FFFFFF"
-            android:layout_marginEnd="8dp"/>
 
-        <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:src="@android:drawable/ic_menu_camera"
-            android:tint="#FFFFFF"
-            android:layout_marginEnd="8dp"/>
+
 
         <!-- Add more ImageView elements as needed -->
     </LinearLayout>
@@ -58,19 +41,9 @@
         android:layout_gravity="bottom">
 
         <!-- Camera Mode Buttons -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="NOCHE"
-            android:textColor="#FFFFFF"
-            android:padding="8dp"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="RETRATO"
-            android:textColor="#FFFFFF"
-            android:padding="8dp"/>
+
+
 
         <TextView
             android:layout_width="wrap_content"
@@ -92,6 +65,7 @@
             android:text="MULTIVID"
             android:textColor="#FFFFFF"
             android:padding="8dp"/>
+
     </LinearLayout>
 
     <!-- Capture Button and Zoom Controls -->
@@ -133,12 +107,23 @@
         </LinearLayout>
 
         <!-- Capture Button -->
+
+        <ImageButton
+            android:id="@+id/rotate_camera_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/ic_rotate_camera"
+            android:contentDescription="Rotate Camera Button" />
+
         <ImageButton
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:background="@drawable/capture_button"
             android:contentDescription="Capture Button"
             android:id="@+id/imagebutton"/>
+
+        <!-- Rotate Camera Button -->
     </LinearLayout>
 
 </FrameLayout>
