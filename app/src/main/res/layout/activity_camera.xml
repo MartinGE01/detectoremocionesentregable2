@@ -5,13 +5,12 @@
     android:layout_height="match_parent">
 
     <!-- Camera Preview -->
-
-    <!-- Top Bar with Time and Icons -->
     <org.opencv.android.JavaCameraView
         android:id="@+id/frame_Surface"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
+    <!-- Top Bar with Time and Icons -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,12 +20,18 @@
         android:layout_gravity="top"
         android:gravity="center_vertical">
 
-
+        <ImageView
+            android:id="@+id/imageViewFlash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_flash"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:focusable="true" />
 
         <!-- Additional Icons -->
         <!-- Replace these with actual icons as needed -->
-
-
 
         <!-- Add more ImageView elements as needed -->
     </LinearLayout>
@@ -47,7 +52,6 @@
             android:textColor="#FFDD00"
             android:padding="8dp"
             android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
             android:layout_marginBottom="8dp"/>
 
         <TextView
@@ -58,11 +62,8 @@
             android:textColor="#FFFFFF"
             android:padding="8dp"
             android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
             android:layout_marginBottom="8dp"/>
-
     </RelativeLayout>
-
 
     <!-- Capture Button and Zoom Controls -->
     <LinearLayout
@@ -103,7 +104,6 @@
         </LinearLayout>
 
         <!-- Capture Button -->
-
         <ImageButton
             android:id="@+id/rotate_camera_button"
             android:layout_width="40dp"
@@ -111,8 +111,5 @@
             android:layout_marginTop="16dp"
             android:background="@drawable/ic_rotate_camera"
             android:contentDescription="Rotate Camera Button" />
-
-        <!-- Rotate Camera Button -->
     </LinearLayout>
-
 </FrameLayout>
