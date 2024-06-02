@@ -74,14 +74,7 @@ public class CameraActivity extends Activity implements CameraBridgeViewBase.CvC
         mOpenCvCameraView.setVisibility(SurfaceView.VISIBLE);
         mOpenCvCameraView.setCvCameraViewListener(this);
 
-        ImageButton captureButton = findViewById(R.id.imagebutton);
-        captureButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Acción para el botón de captura
-                Toast.makeText(CameraActivity.this, "Captura realizada", Toast.LENGTH_SHORT).show();
-            }
-        });
+
 
         ImageButton rotateButton = findViewById(R.id.rotate_camera_button);
         rotateButton.setOnClickListener(new View.OnClickListener() {
